@@ -1,0 +1,38 @@
+* {
+  margin: 1;
+  padding: 0;
+}
+main{
+  border: 1px solid red;
+  height: 640px;
+  width: 800px;
+  margin: auto;
+}
+header{
+  border: 1px solid blue;
+  height: 150px;
+}
+nav{
+  border: 1px solid blue;
+  height: 50px;
+}
+
+section{
+  border: 1px solid red;
+  height: 300px;
+  width: 500px;
+  float: left;
+}
+
+aside{
+  border: 1px solid blue;
+  height: 300px;
+  width: 295px;
+  float: right;
+}
+footer{
+  clear: both;
+  border: 1px solid black;
+  height: 134px;
+
+}
