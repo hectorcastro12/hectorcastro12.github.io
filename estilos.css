@@ -2,31 +2,48 @@
   margin: 1;
   padding: 0;
 }
+body{
+  background: #68b0de
+}
 main{
+  background: #fff;
   border: 1px solid red;
-  height: 640px;
-  width: 800px;
+  height: 660px;
+  width: 820px;
   margin: auto;
 }
 header{
   border: 1px solid blue;
-  height: 150px;
+  height: 130px;
+  margin: 6px;
+  background-image: url(imagenes/Header.PNG);
 }
 nav{
   border: 1px solid blue;
   height: 50px;
+  margin: 6px;
+  background-image: url(imagenes/Nav.PNG);
 }
 
 section{
   border: 1px solid red;
   height: 300px;
+  margin: 6px;
   width: 500px;
   float: left;
 }
 
+article{
+  border: 1px solid black;
+  height: 140px;
+  margin: 4px;
+  width: 490px;
+  }
+
 aside{
   border: 1px solid blue;
   height: 300px;
+  margin: 4px;
   width: 295px;
   float: right;
 }
@@ -34,5 +51,7 @@ footer{
   clear: both;
   border: 1px solid black;
   height: 134px;
+  margin: 6px;
+
 
 }
