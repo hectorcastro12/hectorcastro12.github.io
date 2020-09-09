@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+header{
+  background: #2C2C2D;
+  width: 100%;
+  padding: 10px;
+
+  /* Flexbox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header .git {
+  color: #ffffff;
+  font-size: 30px;
+}
+header .git img{
+  height: 50px;
+  width: 60px;
+  vertical-align: top;
+}
+
+header .git a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+header nav{
+  width: 50%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header nav a{
+  background: #41A5EE;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+
+  flex-grow: 1;
+}
+header nav a:hover{
+  background: #185ABD;
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    flex-direction: column;
+    padding: 0;
+    background: #FF8080;
+  }
+  header .git{
+    margin: 20px 0;
+  }
+  header nav{
+    width: 100%;
+  }
+  header nav a{
+    background: #8DD35F;
+  }
+  header nav a:hover{
+    background: #80B3FF;
+  }
+}
