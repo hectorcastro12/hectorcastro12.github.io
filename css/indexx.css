@@ -10,3 +10,6 @@ ol li {
 li h2 a:hover {
   color: #c3d7df;
 }
+li h2 a {
+  text-decoration: none;
+}
