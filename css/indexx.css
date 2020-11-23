@@ -7,3 +7,6 @@ body{
 ol li {
   list-style: none;
 }
+li h2 a:hover {
+  color: #c3d7df;
+}
