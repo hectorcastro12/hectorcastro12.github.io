@@ -68,10 +68,13 @@ nav ul{
   flex-grow: 1;
 }
 .li:hover{
-  background: #DCAA35;
+  color:#c3d7df;
 }
 .li{
   cursor: pointer;
+}
+input [tipe:"submit"]:hover{
+  color: #c3d7df;
 }
 li {
   font-size: 18px;
