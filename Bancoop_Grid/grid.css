@@ -73,7 +73,7 @@ nav ul{
 .li{
   cursor: pointer;
 }
-input [tipe:"submit"]:hover{
+input[type="submit"]:hover{
   color: #c3d7df;
 }
 li {
